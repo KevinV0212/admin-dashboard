@@ -1,3 +1,7 @@
+:root{
+    --blue-light:#1992D4;
+    --gray-light:#E2E8F0;
+}
 *{
     margin:0;
     padding:0;
@@ -22,7 +26,7 @@ body{
 .sidebar{
     padding:20px;
     grid-row: top / bottom;
-    background-color:rgb(25,146,212);
+    background-color:var(--blue-light);
     color:white;
 }
 
@@ -39,7 +43,7 @@ body{
 }
 
 .nav, .utilities{
-    margin: 50px 0;
+    margin: 50px 0 60px;
 }
 .nav > ul, .utilities > ul{    
     list-style-type:none;
@@ -51,6 +55,8 @@ body{
 .header{
     padding:20px 30px;
     grid-template-rows: repeat(2, 1fr);
+    
+    background-color:white;
     border-bottom: 1px solid black;
 
     display:flex;
@@ -67,6 +73,8 @@ body{
 }
 .main-content{
     padding:30px;
+
+    background-color: var(--gray-light);
     display:grid;
     grid-template-columns: minmax(500px, 1fr) minmax(200px, 300px);
     grid-template-rows:1fr 1fr;
@@ -94,8 +102,10 @@ body{
 
 
 .card, .news-body, .trending-body{
-    box-shadow: 2px 2px 5px;
     padding:20px;
+    
+    box-shadow: 0px 2px 2px;
+    background-color:white;
 }
 
 .news, .trending{
