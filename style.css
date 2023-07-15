@@ -233,13 +233,31 @@ input[type="search"] {
     border-bottom: none;
 }
 
-.news-title, .trend-body  .username{
+.news-title{
     font-size: .9rem;
     font-weight:bold;
     margin-bottom: 5px;
 }
-.news-text, .trend-body .description{
+
+.news-title{
+    font-size: .9rem;
+    font-weight:bold;
+    margin-bottom: 5px;
+}
+
+.news-text{
     font-size: .8rem;
+    color:var(--gray-dark);
+}
+
+.trend-body .username,
+.trend-body .description {
+    font-size: .9rem;
+}
+.trend-body .username{
+    margin-bottom:5px;
+}
+.trend-body .description{
     color:var(--gray-dark);
 }
 
