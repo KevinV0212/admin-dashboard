@@ -1,5 +1,6 @@
 # A mock admin dashboard page (The Odin Project)
-[Preview](https://kevinv0212.github.io/admin-dashboard/)
+
+## [Preview](https://kevinv0212.github.io/admin-dashboard/)
 
 This is project involves using my knowledge of grid-layouts to create
 and organized admin dashboard webpage.
@@ -13,11 +14,11 @@ responsiveness. There is currently no mobile layout
 The main page will be 'index.html'. The main page has the same layout as 
 'replication.html' but has more personalized styling and content.
 
-Notable features:
+## Notable features:
 * Extensive use of grid and flex formats to organize page
 * Responsiveness over desktop resolutions
 
-Technologies:
+## Technologies:
 * HTML
 * CSS
 
