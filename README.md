@@ -1,4 +1,5 @@
 #A mock admin dashboard page (The Odin Project)
+[Preview](https://kevinv0212.github.io/admin-dashboard/)
 
 This is project involves using my knowledge of grid-layouts to create
 and organized admin dashboard webpage.
